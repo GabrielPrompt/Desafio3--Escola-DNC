@@ -1,0 +1,87 @@
+@use "../../sass/variables" as *;
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vw;
+    color: #FFF;
+
+}
+
+h1 {
+    color: #FFF;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 3vw;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 7vw;
+
+
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+    th {
+        font-size: 30px;
+        padding: 0 7.5rem 3rem 6.5rem;
+
+    }
+
+    td {
+        font-weight: 400;
+        font-size: 25px;
+        padding: 1rem 9rem 0 6rem;
+    }
+
+    #closeBtn, #editBtn {
+        cursor: pointer;
+    }
+
+    .checkbox{
+        position: relative;
+        right: 50px;
+    }
+
+    
+}
+
+.input-task {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 14.5rem 0 8rem;
+    align-items: center;
+
+}
+
+#btnAdd {
+    margin-left: 25rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.input-task input {
+    
+    margin-left: 2rem;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
+    border: 0;
+    background-color: #2D2D2D;
+    color: #FFF;
+    padding: 20px;
+}
+
+.border {
+    width: 40vw;
+    border-bottom: 5px solid #FFF;
+    margin-left: 5.5rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,31 @@
+@use "../../sass/variables" as *;
+
+.NavBar {
+    display: flex;
+    background-color: $header-color;
+    width: 100vw;
+    min-height: 5rem;
+    align-items: flex-end;
+    gap: 2rem;
+
+}
+
+h2 {
+    font-family: 'Poppins',sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    padding-bottom: 0.3%;
+    padding-left: 2rem;
+    
+    
+}
+
+.selecionado {
+    background-color: $header-selected;
+    color: $header-color ;
+    border: 1px solid #fff;
+    padding: 8px 25px 8px 25px;
+    border-radius: 10px 10px 0px 0px;
+}

@@ -1,0 +1,70 @@
+@use "../../sass/variables" as *;
+
+.BG {
+    position: fixed;
+    background-color: #FFFFFF;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 754px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    color: black;
+    padding: 4rem;
+    border-radius: 8px;
+
+    h1{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: black;
+    }
+
+    p{
+        font-weight: 400;
+    }
+}
+
+.Btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+
+    button{
+        margin: 0.5rem;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        border: 0px;
+    }
+}
+
+.BtnConfirm{
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.534) !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.BtnClose{
+    background-color: $header-color;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.disabled {
+    cursor: not-allowed !important;
+}
+
